@@ -5,8 +5,10 @@ author:
 build_requires:
   Test::Deep: 0.103
   Test::More: 0.47
+configure_requires:
+  ExtUtils::MakeMaker: 6.50
 distribution_type: module
-generated_by: 'Module::Install version 0.77'
+generated_by: 'Module::Install version 0.81'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -14,13 +16,14 @@ meta-spec:
 name: POE-Filter-Finger
 no_index:
   directory:
+    - examples
     - inc
     - t
-    - examples
 requires:
   POE: 0.38
   POE::Filter: 0
   perl: 5.6.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+  repository: git://github.com/bingos/poe-filter-finger.git
+version: 0.04
